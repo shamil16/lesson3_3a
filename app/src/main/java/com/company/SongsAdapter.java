@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class SongsAdapter extends RecyclerView.Adapter<SongsViewHolder> {
-    public void setSongList(List<String> songList) {
+    public void setSongList(ArrayList<String> songList) {
         this.songList = songList;
     }
 
-    private List<String> songList;
+    private ArrayList<String> songList;
 
 
     @NonNull
